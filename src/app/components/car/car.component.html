@@ -18,6 +18,7 @@
             <td>{{car.colorName}}</td>
             <td>{{car.modelYear}}</td>
             <td>{{car.dailyPrice}}</td>
+            <td><button type="button" [routerLink] ="['/cars/getcardetails/' + car.carId]" class="btn btn-info">Detayları Görüntüle</button></td>
         </tr>
     </tbody>
 </table>
